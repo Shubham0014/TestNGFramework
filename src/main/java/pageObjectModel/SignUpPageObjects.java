@@ -12,6 +12,7 @@ public class SignUpPageObjects {
 	private By jobtitle=By.xpath("//input[@name='UserTitle']");
 	private By Next=By.xpath("//a[@data-page-cntrl='next']");
 	private By SelectEmployee=By.xpath("//select[@name='CompanyEmployees']");
+	private By CName=By.xpath("//input[@name='CompanyName']");
 	private By ClickOnNext=By.xpath("//a[@data-page-cntrl='next']");
 	private By Phone=By.xpath("//input[@name='UserPhone']");
 	private By Email=By.xpath("//input[@name='UserEmail']");
@@ -38,6 +39,9 @@ public class SignUpPageObjects {
 	}
 	public WebElement SelectEmployee() {
 		return driver.findElement(SelectEmployee);	
+	}
+	public WebElement EnterCName() {
+		return driver.findElement(CName);	
 	}
 	public WebElement ClickOnNext() {
 		return driver.findElement(ClickOnNext);	

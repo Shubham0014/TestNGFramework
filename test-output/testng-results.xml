@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-02T19:44:50 IST" name="Suite" finished-at="2023-08-02T19:45:15 IST" duration-ms="25400">
+  <suite started-at="2023-08-05T16:37:43 IST" name="Suite" finished-at="2023-08-05T16:38:06 IST" duration-ms="23513">
     <groups>
     </groups>
-    <test started-at="2023-08-02T19:44:50 IST" name="Test" finished-at="2023-08-02T19:45:15 IST" duration-ms="25400">
+    <test started-at="2023-08-05T16:37:43 IST" name="Test" finished-at="2023-08-05T16:38:06 IST" duration-ms="23513">
       <class name="testcases.signUp">
-        <test-method is-config="true" signature="LaunchBrowserandUrl()[pri:0, instance:testcases.signUp@34a3d150]" started-at="2023-08-02T19:44:50 IST" name="LaunchBrowserandUrl" finished-at="2023-08-02T19:44:57 IST" duration-ms="6996" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowserandUrl()[pri:0, instance:testcases.signUp@71d44a3]" started-at="2023-08-05T16:37:43 IST" name="LaunchBrowserandUrl" finished-at="2023-08-05T16:37:50 IST" duration-ms="7232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowserandUrl -->
-        <test-method signature="verifySignup()[pri:0, instance:testcases.signUp@34a3d150]" started-at="2023-08-02T19:44:57 IST" name="verifySignup" finished-at="2023-08-02T19:45:11 IST" duration-ms="13627" status="PASS">
+        <test-method signature="verifySignup()[pri:0, instance:testcases.signUp@71d44a3]" started-at="2023-08-05T16:37:50 IST" name="verifySignup" finished-at="2023-08-05T16:38:02 IST" duration-ms="12128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignup -->
       </class> <!-- testcases.signUp -->
       <class name="testcases.login">
-        <test-method is-config="true" signature="LaunchBrowserandUrl()[pri:0, instance:testcases.login@28701274]" started-at="2023-08-02T19:45:11 IST" name="LaunchBrowserandUrl" finished-at="2023-08-02T19:45:15 IST" duration-ms="4001" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowserandUrl()[pri:0, instance:testcases.login@702657cc]" started-at="2023-08-05T16:38:02 IST" name="LaunchBrowserandUrl" finished-at="2023-08-05T16:38:06 IST" duration-ms="3630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowserandUrl -->
-        <test-method signature="werifyLogin()[pri:0, instance:testcases.login@28701274]" started-at="2023-08-02T19:45:15 IST" name="werifyLogin" finished-at="2023-08-02T19:45:15 IST" duration-ms="663" status="PASS">
+        <test-method signature="werifyLogin()[pri:0, instance:testcases.login@702657cc]" started-at="2023-08-05T16:38:06 IST" name="werifyLogin" finished-at="2023-08-05T16:38:06 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- werifyLogin -->

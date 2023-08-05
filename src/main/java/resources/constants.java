@@ -7,6 +7,6 @@ public class constants {
 	public static String FirstName="Shubham";
 	public static String lastName="Patil";
 	public static String jobtitle="Globe India Enterprises";
-	
+    public static String CName="Tata" ;
 
 }

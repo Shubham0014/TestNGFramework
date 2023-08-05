@@ -29,12 +29,14 @@ public class signUp extends Baseclass {
     	spo.eneterjNext().click();
     	
     	WebElement a=spo.SelectEmployee();
+
 		Select s =new Select(a);
 		s.selectByIndex(1);
-		
+    	 
+    	spo.EnterCName().sendKeys(constants.CName);
+    	 
 		spo.ClickOnNext().click();
 		
-		Thread.sleep(3000);
 		
 		spo.Phone().sendKeys("7744088156");
 		
